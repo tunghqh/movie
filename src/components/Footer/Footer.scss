@@ -1,0 +1,23 @@
+@use '../../scss/' as *;
+ 
+.footer {
+    position: relative;
+    padding: 6rem 2rem;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.footer-content {
+    max-width: 1000px;
+
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+.fotter-menu-list {
+    display: flex;
+    flex-direction: column;
+}
